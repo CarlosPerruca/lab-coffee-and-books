@@ -1,0 +1,11 @@
+<section>
+    <h2>THIS IS A LIST OF ALL PLACES</h2>
+    <ul>
+        {{#each allPlaces}}
+        <li>
+            <button> <a href="/edit-place{{id}}"></a> {{name}} it is a {{type}}</button>
+        </li>
+        {{/each}}
+    </ul>
+
+</section>
